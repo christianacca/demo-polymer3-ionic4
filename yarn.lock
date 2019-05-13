@@ -484,6 +484,13 @@
     lodash "^4.17.11"
     to-fast-properties "^2.0.0"
 
+"@ionic/core@^4.4.0":
+  version "4.4.0"
+  resolved "https://registry.yarnpkg.com/@ionic/core/-/core-4.4.0.tgz#250dbd85000558416b34317cadcc365aefb818c0"
+  integrity sha512-GKu2qwapAG7dipvBG9RdzSxt/CmQXzO7eIa6Wg6uxuNmGE0WSc6fPZmE0YlFD1dkgvhzSY23XBiWVZMgnH/Wdg==
+  dependencies:
+    ionicons "4.5.6"
+
 "@mrmlnc/readdir-enhanced@^2.2.1":
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/@mrmlnc/readdir-enhanced/-/readdir-enhanced-2.2.1.tgz#524af240d1a360527b730475ecfa1344aa540dde"
@@ -4464,6 +4471,11 @@ invariant@^2.2.2:
   integrity sha512-phJfQVBuaJM5raOpJjSfkiD6BpbCE4Ns//LaXl6wGYtUBY83nWS6Rf9tXm2e8VaK60JEjYldbPif/A2B1C2gNA==
   dependencies:
     loose-envify "^1.0.0"
+
+ionicons@4.5.6:
+  version "4.5.6"
+  resolved "https://registry.yarnpkg.com/ionicons/-/ionicons-4.5.6.tgz#f3b5d2446e7e1b30e67ddcd1fc563271acc60f3c"
+  integrity sha512-/F3U/rxdLPGl8eUW5dMouhBBoJuUPrlFO6rkoz4VNuw1lxP6l+bFtsDA8MaVM1dHABp+gIHxtpt+IhwmB3oIfA==
 
 ipaddr.js@1.9.0:
   version "1.9.0"

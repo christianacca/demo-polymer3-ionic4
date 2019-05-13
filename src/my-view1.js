@@ -10,6 +10,7 @@
 
 import { PolymerElement, html } from '@polymer/polymer/polymer-element.js';
 import './shared-styles.js';
+import './album-toolbar.js'
 
 class MyView1 extends PolymerElement {
   static get template() {
@@ -27,8 +28,16 @@ class MyView1 extends PolymerElement {
         <h1>View One</h1>
         <p>Ut labores minimum atomorum pro. Laudem tibique ut has.</p>
         <p>Lorem ipsum dolor sit amet, per in nusquam nominavi periculis, sit elit oportere ea.Lorem ipsum dolor sit amet, per in nusquam nominavi periculis, sit elit oportere ea.Cu mei vide viris gloriatur, at populo eripuit sit.</p>
+        <album-toolbar title="Menu Sheet"></album-toolbar>
+        <ion-button on-click="clickReceived">
+          Click Me
+        </ion-button>
       </div>
     `;
+  }
+
+  clickReceived() {
+    console.log('ion-button click event received')
   }
 }
 
